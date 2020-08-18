@@ -3,6 +3,9 @@ from django.http.response import HttpResponse
 from django.http import JsonResponse
 
 
+def welcome(request):
+    return render(request, 'index1.html')
+
 def json(request):
     comments = [
         {'first_name': 'Steve',

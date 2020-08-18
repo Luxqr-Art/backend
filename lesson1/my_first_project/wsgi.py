@@ -1,5 +1,5 @@
 """
-WSGI config for mt_first_project project.
+WSGI config for my_first_project project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mt_first_project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'my_first_project.settings')
 
 application = get_wsgi_application()

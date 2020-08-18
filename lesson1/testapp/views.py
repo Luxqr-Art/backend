@@ -16,7 +16,7 @@ def json(request):
          'adress': ' 700 Carpenters Crossing APT D12'}
         ]
 
-    return JsonResponse5({'comments' : comments})
+    return JsonResponse({'comments' : comments})
 
 
 def resp(request):
